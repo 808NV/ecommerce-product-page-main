@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="left">
+          <ul>
+            <li class="logo">sneakers</li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <button class="shopping-cart">
+            <span class="cart-notification hidden">3</span>
+            <img
+              src="ecommerce-product-page-main/images/icon-cart.svg"
+              alt="shopping-cart"
+            >
+          </button>
+          <img class="avatar" 
+            src="ecommerce-product-page-main/images/image-avatar.png"
+            alt="avatar"
+          >
+        </div>
+    
+      </div>
+      <div class="cart hidden">
+        <p class="bold">Cart</p>
+        <p class="empty-cart">your cart is empty</p>
+        <div class="items hidden">
+         <img class="product" src="ecommerce-product-page-main/images/image-product-1-thumbnail.jpg">
+         <div class="product-name">Fall Limited Edition Sneakers $125 x <span class="sum"></span> <span class="bolder price"></span></div>
+         <button class="delete">
+          <img src="ecommerce-product-page-main/images/icon-delete.svg"> 
+         </button>
+        </div>
+        <button class="checkout hidden">Checkout</button>
+      </div>
+      <div class="content">
+        <div class="img-wrapper">
+          <div class="big-img"><img class="main-img" src="ecommerce-product-page-main/images/image-product-1.jpg"></div>
+          <div class="small-images">
+            <div class="small-img border"><img class="blur" src="ecommerce-product-page-main/images/image-product-1-thumbnail.jpg"></div>
+            <div class="small-img"><img src="ecommerce-product-page-main/images/image-product-2-thumbnail.jpg"></div>
+            <div class="small-img"><img src="ecommerce-product-page-main/images/image-product-3-thumbnail.jpg"></div>
+            <div class="small-img"><img src="ecommerce-product-page-main/images/image-product-4-thumbnail.jpg"></div>
+          </div>
+        </div>
+        <div class="text-wrapper">
+          <p class="orange-color">SNEAKER COMPANY</p>
+          <h1>Fall Limited Edition <br> Sneakers</h1>
+          <p class="light-color">
+            These low-profile sneaker are your perfect casual wear companions. Featuring a durable rubber outer sole. they'll
+            withstand everything the weather can offer.
+          </p>
+          <div class="price">
+            <h2>$125.00</h2>
+            <button class="disc">50%</button>
+          </div>
+          <p class="old-price">$250.00</p>
+          <div class="shop">
+            <div class="quantity">
+              <button class="add"><img src="ecommerce-product-page-main/images/icon-plus.svg"></button>
+              <p class="quantity-counter">0</p>
+              <button class="minus"><img src="ecommerce-product-page-main/images/icon-minus.svg"></button>
+            </div>
+            <button class="add-to-cart"><img src="ecommerce-product-page-main/images/icon-cart.svg"> Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal">
+        <button class="cancel">
+          <img src="ecommerce-product-page-main/images/icon-close.svg">
+        </button>
+        <button class="previous arrow"><img src="ecommerce-product-page-main/images/icon-previous.svg"></button>
+        <button class="next arrow"><img src="ecommerce-product-page-main/images/icon-next.svg"></button>
+        <div class="big-img"><img src="ecommerce-product-page-main/images/image-product-1.jpg"></div>
+        <div class="small-images">
+          <div class="small-img border"><img class="blur" src="ecommerce-product-page-main/images/image-product-1-thumbnail.jpg"></div>
+          <div class="small-img"><img src="ecommerce-product-page-main/images/image-product-2-thumbnail.jpg"></div>
+          <div class="small-img"><img src="ecommerce-product-page-main/images/image-product-3-thumbnail.jpg"></div>
+          <div class="small-img"><img src="ecommerce-product-page-main/images/image-product-4-thumbnail.jpg"></div>
+        </div>
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
